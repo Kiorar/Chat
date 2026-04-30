@@ -2,6 +2,7 @@ import socket
 import threading
 
 host = socket.gethostname()
+print("Enter Target IP")
 ip = input('')
 port = 4591
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #ipv4 tcp
